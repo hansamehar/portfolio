@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-left:40px;
+    margin-top: 10px;
+}
+.logo{
+    width: 110px;
+    border-radius: 20px;
+}
+.list-items{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+.links{
+    text-decoration: none;
+    color: rgb(9, 9, 9);
+    font-weight: 600;
+}
+.links:hover{
+    color: rgb(247, 4, 4);
+    text-decoration: underline;
+}
+.homecontent{
+    margin: 13% 0px 0px 8%;
+}
+#name{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: "Dancing Script", system-ui;
+}
+#lname{
+    font-family: "Dancing Script", system-ui;
+    color: orange;
+}
+#userdetails{
+    line-height: 1.4;
+}
+#download{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.homeimage{
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+.group1{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 2s,left 1s;
+}
+.homeimage:hover #shape{
+    bottom: 70px;
+}
+.homeimage:hover #girl{
+    left:30%
+}
+#about{
+    margin: 20% 8% 0px 8%;
+}
+.sectionhead{
+    text-align: center;
+}
+.mainhead{
+    font-size: 30px;
+}
+.subhead{
+    font-size: 20px;
+    color: green;
+}
+.aboutbody{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    align-items: center;
+}
+#img1{
+    margin-top: 30px;
+    width: 70%;
+}
+.aboutcontent{
+    font-size: 20px;
+    text-align: justify;
+}
+.information{
+    margin-top: 1,3rem;
+}
+.infobox{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.infobox>span{
+    margin-left: 10px;
+}
+#skills{
+    margin: 10% 8% 0px 8%;
+}
+.skillsbody{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 100px;
+    margin-top: 20px;
+}
+.bars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 0px;
+}
+.barhead, .barpercent{
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.basebar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+#img2{
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.htmlbar{
+    background-color: orange;
+    width: 89%;
+}
+.cssbar{
+    background-color: orange;
+    width: 90%;
+}
+.jsbar{
+    background-color: orange;
+    width: 70%;
+}
+.reactbar{
+    background-color: orange;
+    width: 75%;
+}
+#contacts{
+    margin: 10% 8% 0px 8%;
+}
+.iconcollection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    padding: 50px;
+    
+}
+.brands{
+    color: black;
+    font-size: 2rem;
+}
+.icon:hover .brands{
+   color: rgb(253, 251, 251);
+   padding: 15px;
+   border-radius: 50%;
+   background-image: linear-gradient(red, yellow);
+   animation: rotate 3s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(40deg);
+    }
+    25%{
+        transform: rotate(-40deg);
+    }
+    50%{
+        transform: rotate(40deg);
+    }
+    75%{
+        transform: rotate(-40deg);
+    }
+    100%{
+        transform: rotate(40deg);
+    }
+
+}
+footer{
+    margin: 8% 0px 0px 0px;
+}
+#copyright{
+    text-align: center;
+    font-weight: 600;
+}
+.uparrow{
+    float: right;
+    margin-top: -60px;
+}
+html{
+scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: antiquewhite;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 10px;
+}

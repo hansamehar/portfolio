@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU:wght@100..400&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- navigation -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="./images/Minimalist Portfolio Cover Page.png" alt="no image">
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a class="links" href="#home">HOME</a></li>
+                <li class="list-items"><a class="links" href="#about">ABOUT</a></li>
+                <li class="list-items"><a class="links" href="#skills">SKILL</a></li>
+                <li class="list-items"><a class="links" href="#contacts">CONTACT</a></li>
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <div class="homecontent">
+                <h1 class="animate__animated animate__bounce" id="name">I'm Hansa <span id="lname">Mehar</span></h1>
+                <p id="userdetails">This is my official Portfolio website to describe all <br>details and experience in
+                    web devolepment.</p>
+                <a id="download" href="./RESUME.pdf" download>Download CV</a>
+            </div>
+            <div class="homeimage">
+                <img id="shape" class="group1" src="./images/shape.png" alt="">
+                <img id="girl" class="group1" src="./images/girl.png" alt="">
+            </div>
+        </section>
+        <!-- about -->
+        <section id="about">
+            <div class="sectionhead">
+                <h2 class="mainhead">About</h2>
+                <span class="subhead">introduction</span>
+            </div>
+            <div class="aboutbody">
+                <div class="aboutimage" data-aos="flip-left">
+                    <img id="img1" src="./images/5110908.jpg" alt="no image">
+                </div>
+
+                <div class="aboutcontent">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id magnam consequuntur, quos ipsa
+                        pariatur, ipsam, esse doloremque minima harum eveniet voluptatum vitae earum ipsum? Ut aliquid
+                        sint placeat iste ex!</p>
+                    <div class="information">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Hansa Mehar</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>343543211</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>hansamehar@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skill -->
+        <section id="skills">
+            <div class="sectionhead">
+                <h2 class="mainhead">Skills</h2>
+                <span class="subhead">My skills</span>
+            </div>
+            <div class="skillsbody">
+                <div class="progressbars">
+                    <div class="bars">
+                        <h3 class="barhead">HTML</h3>
+                        <span class="barpercent">89%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar htmlbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">CSS</h3>
+                        <span class="barpercent">90%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar cssbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">JAVASCRIPT</h3>
+                        <span class="barpercent">70%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar jsbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">REACT</h3>
+                        <span class="barpercent">75%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar reactbar"></div>
+                    </div>
+                </div>
+                <div class="skillimage" data-aos="flip-left">
+                    <img id="img2"
+                        src="images/7503321.jpg"
+                        alt="">
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section id="contacts">
+            <div class="sectionhead">
+                <h2 class="mainhead">Contact</h2>
+                <span class="subhead">My Contacts</span>
+            </div>
+            <div class="iconcollection">
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-linkedin brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-github brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-instagram brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-facebook brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-twitter brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-whatsapp brands"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer>
+            <p id="copyright">&copy;My Portfolio website-June 2024,All Rights reserved to &reg;Hansa</p>
+            <div class="icon uparrow">
+                <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
